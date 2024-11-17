@@ -12,3 +12,25 @@ ensuring seamless integration with frontend systems.
     <li><strong>CRUD API:</strong> Full support for managing videos, users, and other resources.</li>
 </ul>
 
+<h2>Project Structure</h2>
+<pre>
+YouTubeBackend/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── youtube/
+│   │   │           ├── YouTubeApplication.java  # Main Application Class
+│   │   │           ├── config/                 # Configuration Classes
+│   │   │           ├── controller/             # REST Controllers
+│   │   │           ├── service/                # Business Logic Layer
+│   │   │           ├── repository/             # MongoDB Repositories
+│   │   │           ├── dto/                    # Data Transfer Objects
+│   │   │           ├── model/                  # Entity Classes
+│   │   │           └── util/                   # Utility Classes
+│   │   ├── resources/
+│   │   │   ├── application.properties          # Application Configurations
+│   │   │   └── static/                         # Static Resources
+├── pom.xml                                     # Maven Dependencies
+└── README.md                                   # Project Documentation
+</pre>
